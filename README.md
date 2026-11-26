@@ -18,16 +18,16 @@ The study considers both cantilever and simply supported beam configurations.
 
 The actuator starting position and length are the design variables:
 
-\[
+$$
 \min_{x_1,l} J(x_1,l)
-\]
+$$
 
-where
+where the objective function is defined as
 
-\[
+$$
 J(x_1,l)=\int_0^L
-[\kappa(x;x_1,l)-\kappa_d(x)]^2\,dx
-\]
+\left[\kappa(x;x_1,l)-\kappa_d(x)\right]^2\,dx
+$$
 
 Here, $\kappa$ is the actual beam curvature and $\kappa_d$ is the prescribed target curvature.
 
